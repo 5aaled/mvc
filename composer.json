@@ -1,0 +1,19 @@
+{
+    "name": "mass/copy",
+    "autoload": {
+        "psr-4": {
+            "Mass\\Copy\\": "src/"
+        },"files": [
+            "src/routes/web.php",
+            "src/core/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "proj"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^1.4"
+    }
+}
